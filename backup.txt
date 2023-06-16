@@ -1,0 +1,782 @@
+<template>
+  <div>
+    <div class="bg-gray-500 border rounded mx-2 ml-2 dark:bg-gray-900 sm:ml-64 mt-32 md:mt-20 lg:mt-20">
+        <main class="p-4 h-auto pt-4 w-auto">
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
+            <div class=" border-2 border-dashed rounded-lg border-gray-300 bg-green-500 dark:border-gray-600 h-56">
+                <div class="flex justify-between items-center mb-4">
+                    <div class="w-20 ml-4 mt-4">
+                        <img src="https://img.icons8.com/office/80/sim-card-chip.png" alt="Mastercard Logo" class="w-full">
+                    </div>
+                    <div class="text-white text-lg font-semibold mr-4 mt-4">
+                        5445 **** **** 1234
+                    </div>
+                </div>
+                <div class="flex justify-between items-center">
+                    <div class="text-white ml-4 mt-4">
+                        John Doe Paul
+                    </div>
+                    <div class="text-white  mt-4">
+                        01/23
+                    </div>
+                    <div class="w-20 ml-4 mr-4">
+                        <img src="/img/mastercard.svg" alt="Mastercard Logo" class="w-full">
+                    </div>
+                </div>
+            </div>
+            <div class=" border-2 border-dashed rounded-lg border-gray-300 dark:border-gray-600 h-56">
+                <div class="bg-black p-2 rounded-lg shadow-md h-56">
+                    <div class="flex items-center justify-center">
+                    <span class="text-gray-500 mr-2">
+                        <i class="fas fa-wallet"></i>
+                    </span>
+                    <h2 class="text-xl font-semibold text-gray-400">Account Balance</h2>
+                    </div>
+                    <div class="flex items-center mt-4">
+                    <span class="text-green-500 mr-2">
+                        <i class="fas fa-dollar-sign"></i>
+                    </span>
+                    <p class="text-3xl font-bold text-gray-400">$1,234.56</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" border-2 border-dashed rounded-lg border-gray-300 dark:border-gray-600 h-56">
+                <div class="bg-black p-2 rounded-lg shadow-md h-56">
+                    <div class="flex items-center">
+                    <span class="text-gray-500 mr-2">
+                        <i class="fas fa-wallet"></i>
+                    </span>
+                    <h2 class="text-xl font-semibold text-gray-400">Account Balance</h2>
+                    </div>
+                    <div class="flex items-center mt-4">
+                    <span class="text-green-500 mr-2">
+                        <i class="fas fa-dollar-sign"></i>
+                    </span>
+                    <p class="text-3xl font-bold text-gray-400">$1,234.56</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          <section class="rounded bg-gray-500 p-3 sm:p-5 w-100">
+            <div class="mx-auto max-w-screen-xl px-4 lg:px-12 w-full">
+                <!-- Start coding here -->
+                <div class="bg-gray-400 dark:bg-gray-800 shadow-md sm:rounded-lg overflow-hidden w-full">
+                    
+                    <div class="overflow-x-auto">
+                        <h2 class="text-center text-4xl text-gray-900">History</h2>
+                        <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                            <thead class="text-xs text-gray-700 uppercase  dark:bg-gray-700 dark:text-gray-400">
+                                <tr>
+                                    <th scope="col" class="px-4 py-3">Utility</th>
+                                    <th scope="col" class="px-4 py-3">Date/Time</th>
+                                    <th scope="col" class="px-4 py-3">Amount</th>
+                                    <th scope="col" class="px-4 py-3">Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b dark:border-gray-700">
+                                    
+                                    <td class="px-4 py-3">Energy</td>
+                                    <td class="px-4 py-3">12:30pm 12/12/2020</td>
+                                    <td class="px-4 py-3">$29.99</td>
+                                    <td class="px-4 py-3">successful</td>
+                                    
+                                </tr>
+                                <tr class="border-b dark:border-gray-700">
+                                    
+                                    <td class="px-4 py-3">School Fee</td>
+                                    <td class="px-4 py-3">2:30pm 12/12/2020</td>
+                                    <td class="px-4 py-3">$209.99</td>
+                                    <td class="px-4 py-3">successful</td>
+                                    
+                                </tr>
+                                <tr class="border-b dark:border-gray-700">
+                                    
+                                    <td class="px-4 py-3">Purchase</td>
+                                    <td class="px-4 py-3">4:30pm 25/12/2020</td>
+                                    <td class="px-4 py-3">$259</td>
+                                    <td class="px-4 py-3">successful</td>
+                                    
+                                </tr>
+                                <tr class="border-b dark:border-gray-700">
+                                    
+                                    <td class="px-4 py-3">AWS renewal</td>
+                                    <td class="px-4 py-3">11:33am 08/06/2021</td>
+                                    <td class="px-4 py-3">$100</td>
+                                    <td class="px-4 py-3">pending</td>
+                                    
+                                </tr>
+                                <tr class="border-b dark:border-gray-700">
+                                    
+                                    <td class="px-4 py-3">Game funding</td>
+                                    <td class="px-4 py-3">07:30pm 12/07/2022</td>
+                                    <td class="px-4 py-3">$29.99</td>
+                                    <td class="px-4 py-3">successful</td>
+                                    
+                                </tr>
+                                <tr class="border-b dark:border-gray-700">
+                                    
+                                    <td class="px-4 py-3">Energy</td>
+                                    <td class="px-4 py-3">12:30pm 12/12/2020</td>
+                                    <td class="px-4 py-3">$29.99</td>
+                                    <td class="px-4 py-3">successful</td>
+                                    
+                                </tr>
+                               
+                             
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                </div>
+            </div>
+            </section>
+        </main>
+        <main>
+            <div
+            class="border-2 border-dashed rounded-lg border-gray-300 dark:border-gray-600 h-96 mb-4"
+          ></div>
+          <div class="grid grid-cols-2 gap-4">
+            <div
+              class="border-2 border-dashed rounded-lg border-gray-300 dark:border-gray-600 h-48 md:h-72"
+            ></div>
+            <div
+              class="border-2 border-dashed rounded-lg border-gray-300 dark:border-gray-600 h-48 md:h-72"
+            ></div>
+            <div
+              class="border-2 border-dashed rounded-lg border-gray-300 dark:border-gray-600 h-48 md:h-72"
+            ></div>
+            <div
+              class="border-2 border-dashed rounded-lg border-gray-300 dark:border-gray-600 h-48 md:h-72"
+            ></div>
+          </div>
+        </main>
+      </div>
+  </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>
+
+
+
+
+<template>
+  <div class="sm:ml-4 md:m-2 lg:ml-64 sm:mt-40 md:mt-20 lg:mt-20">
+    <div class="confetti-container" >
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <!-- Add more confetti elements here -->
+  </div>
+      <h1 class="text-3xl text-center font-bold">Welcome</h1>
+
+      <section class="bg-coolGray-50 py-4 border border-green-300 ml-4  mr-4">
+        <div class="container px-4 mr-8 bg-gray-400">
+          <div class=" p-6 bg-gray-500  mb-8 mt-8 rounded-md shadow-dashboard">
+            <h2 class="mb-6 text-lg font-semibold">Discover our tools</h2>
+            <div class="card-body mt-2" style="margin-top:2px">
+              <p id="countdown" class="text-white font-bold text-center text-1xl mt-4">The wheel spins in :</p>
+              <div class="flex justify-center items-center">
+                      <canvas id="canvas" width="342" height="342" class="mt-8">
+                          <p class="text-white">Sorry, your browser doesn't support canvas. Please try another.</p>
+                      </canvas>
+          </div>
+            <h2 class="card-title text-center mx-auto">Voila!!!
+            </h2>
+            <p class="mx-auto" id="message">One spin away from being a winner!!!</p>
+            
+          </div>
+          </div>
+        </div>
+      </section>
+        
+  </div>
+</template>
+
+<script>
+import Swal from 'sweetalert2'
+import axios from 'axios'
+export default {
+  data() {
+        return {
+            wheelSpinning: false,
+            wheelPower: 0,
+            theWheel: {},
+            players: [],
+            queueId: '',
+            winner:'',
+            
+           
+        }
+    },
+    mounted() {
+      
+        this.getQueue()
+        setTimeout(()=>{
+            const colors = ['#9400d3', '#4b0082', '#0000ff', '#00ff00', '#ffff00', '#ff7f00', '#ff0000', '#ee1ccc', '#acb1fd', '#3cb228']
+            const result = []
+            for(let i = 0; i< this.players.length; i++){
+                const obj = {
+                    'fillStyle': colors[i],
+                    'text' : this.players[i]
+                };
+                result.push(obj)
+            }
+            this.theWheel = new Winwheel({
+            'outerRadius': 170,        // Set outer radius so wheel fits inside the background.
+            'innerRadius': 5,         // Make wheel hollow so segments don't go all way to center.
+            'textFontSize': 18,         // Set default font size for the segments.
+            'textOrientation': 'horizontal', // Make text vertial so goes down from the outside of wheel.
+            'textAlignment': 'outer',    // Align text to outside of wheel.
+            'numSegments': this.players.length,         // Specify number of segments.
+            'segments' : result,
+            // ,let c = adjustedWheel.ctx;
+ 
+// Create pointer.
+
+            'animation':           // Specify the animation to use.
+            {
+                'type': 'spinToStop',
+                'duration': 8,     // Duration in seconds.
+                'spins': 3,     // Default number of complete spins.
+                'callbackFinished': alertPrize
+            }, 
+            'pointerGuide' :        // Specify pointer guide properties.
+        {
+            'display'     : true,
+            'strokeStyle' : 'white',
+            'lineWidth'   : 3,
+            'radius': 105
+        },
+        
+        });
+        this.countdownTimer(timerDuration);
+        }, 500)
+       
+
+        // -------------------------------------------------------
+        // Called when the spin animation has finished by the callback feature of the wheel because I specified callback in the parameters.
+        // -------------------------------------------------------
+        const alertPrize=(indicatedSegment)=> {
+            this.winner = indicatedSegment.text
+            // Just alert to the user what happened.
+            // In a real project probably want to do something more interesting than this with the result.
+            if (indicatedSegment.text == 'LOOSE TURN') {
+                alert('Sorry but you loose a turn.');
+            }
+            else if (indicatedSegment.text == 'BANKRUPT') {
+                alert('Oh no, you have gone BANKRUPT!');
+            }
+            else {
+                let confett = document.querySelector('.confetti-container')
+                confett.style.visibility = "visible"
+                this.confetti()
+                // this.winner = indicatedSegment.text
+                // Swal.fire(
+                //     "Congratulations", `${this.winner} won the spin `, "success")
+                //     then(result()=>this.updateWinner())
+                //     // this.updateWinner();
+                Swal.fire({
+                title: '🎉🥳 Hurray!!! 🎉🥳',
+                text: `Congratulations, ${this.winner} won the spin`,
+                icon: 'success',
+                showCancelButton: false,
+                showConfirmButton: false,
+                timer: 1500,
+                timerProgressBar: true,
+                
+                }).then((result) => {
+                
+                this.updateWinner()
+                this.payWinner()
+                let text = document.getElementById('message')
+                text.textContent = `🎉🥳 Hurray!!! 🎉🥳, ${this.winner} won the spin`
+                })
+                
+            }
+        }
+       
+var timerDuration = 5;
+
+// Start the countdown timer
+
+
+    },
+    methods: {
+        payWinner(){
+            // const axios = require('axios');
+            let data = JSON.stringify({
+            "playerId": this.winner
+            });
+
+            let config = {
+            method: 'post',
+            maxBodyLength: Infinity,
+            url: 'http://localhost:8000/bitplay/api/users/paywinner',
+            headers: { 
+                'Content-Type': 'application/json'
+            },
+            data : data
+            };
+
+            axios.request(config)
+            .then((response) => {
+                if(response.data.successful){
+                    console.log('Winner credited successfully')
+                }
+                else{
+                    throw new Error('Winner not creditted')
+                }
+            console.log(JSON.stringify(response.data));
+            })
+            .catch((error) => {
+            console.log(error);
+            });
+
+        },
+         countdownTimer(seconds) {
+            var countdownElement = document.getElementById("countdown");
+            var self = this
+            
+            var interval = setInterval(function() {
+                countdownElement.textContent = "The wheel spins in : " + seconds + " seconds";
+
+                if (seconds <= 0) {
+                clearInterval(interval);
+                // countdownElement.textContent = "Timer has reached zero!";
+                if(self.players.length<10){
+                    Swal.fire("The Spin will begin when the queue is filled")
+                }
+                else{
+                    setTimeout(async ()=>{
+                        // console.log('before update')
+                        await self.spin()
+                        
+                        setTimeout(() => {
+                            this.updateWinner();
+                        }, this.theWheel.animation.duration * 1000);
+                        
+                        console.log('After update')
+                },100)
+                  
+                    
+                   
+            
+                }
+                
+                // Swal.fire('What up')  // Call your function here
+                }
+
+                seconds--;
+            }, 1000);
+        },
+        
+       spin() {
+
+        return new Promise((resolve)=>{
+            // Ensure that spinning can't be clicked again while already running.
+            if (this.wheelSpinning == false) {
+                // Based on the power level selected adjust the number of spins for the wheel, the more times is has
+                // to rotate with the duration of the animation the quicker the wheel spins.
+                if (this.wheelPower == 1) {
+                    this.theWheel.animation.spins = 3;
+                }
+                else if (this.wheelPower == 2) {
+                    this.theWheel.animation.spins = 6;
+                }
+                else if (this.wheelPower == 3) {
+                    this.theWheel.animation.spins = 9;
+                }
+                //let stopAt = this.theWheel.getRandomForSegment(7);
+ 
+                // Important thing is to set the stopAngle of the animation before stating the spin.
+               // this.theWheel.animation.stopAngle = stopAt;
+                // Disable the spin button so can't click again while wheel is spinning.
+                // document.getElementById('spin_button').src = "/spin_off.png";
+                // document.getElementById('spin_button').className = "";
+
+                // Begin the spin animation by calling startAnimation on the wheel object.
+                this.theWheel.startAnimation();
+
+                // Set to true so that power can't be changed and spin button re-enabled during
+                // the current animation. The user will have to reset before spinning again.
+                this.wheelSpinning = true;
+
+                // this.resetWheel()
+            }
+        })
+
+        },
+              
+        getQueue() {
+            let userData = this.getCookie('userData')   
+            console.log('This is the userData', userData)
+            let config = {
+                method: 'get',
+                maxBodyLength: Infinity,
+                url: 'http://localhost:8000/bitplay/api/users/queue',
+                headers: {
+                    'Authorization': 'Bearer ' + userData
+                }
+            };
+
+            axios.request(config)
+                .then((response) => {
+                    if (!response.data.successful) {
+                        throw 'Error communicating with the server'
+                    }
+                    this.players = response.data.data.players
+                    
+                    this.queueId = response.data.data.queueId
+                    
+                    console.log('This is the response ', response.data);
+                })
+                .catch((error) => {
+                    Swal.fire(error.message)
+                    console.log(error);
+                });
+
+        },
+        getCookie(cname) {
+      let name = cname + "=";
+      let ca = document.cookie.split(";");
+      for (let i = 0; i < ca.length; i++) {
+        let c = ca[i];
+        while (c.charAt(0) == " ") {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+          return c.substring(name.length, c.length);
+        }
+      }
+      return "";
+    },
+    updateWinner(){
+        // var self = this
+        // const axios = require('axios');
+        let data = JSON.stringify({
+        "winner": this.winner
+        });
+
+        let config = {
+        method: 'post',
+        maxBodyLength: Infinity,
+        url: 'http://localhost:8000/bitplay/api/users/winner',
+        headers: { 
+            'Content-Type': 'application/json'
+        },
+        data : data
+        };
+
+        axios.request(config)
+        .then((response) => {
+        console.log(JSON.stringify(response.data));
+        })
+        .catch((error) => {
+        console.log(error);
+        });
+
+    },
+    confetti(){
+        var container = document.querySelector('.confetti-container');
+      var confetti = document.querySelectorAll('.confetti');
+      
+      var colors = ['#fff200', '#11cc00', '#ffaeee', '#00ff00', '#0000ff', '#111abc', '#abbff1', '#e111ff'];
+      
+      confetti.forEach(function(item) {
+        item.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+        item.style.left = Math.random() * 100 + '%';
+        item.style.animationDelay = Math.random() * 3 + 's';
+      });
+      
+      setTimeout(function() {
+        container.remove();
+      }, 20000);
+    }
+
+
+    }
+}
+</script>
+
+<style>
+body {
+  font-family: arial;
+}
+
+@keyframes confetti {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+
+.confetti-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  visibility:hidden;
+}
+
+.confetti {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #ffcc00;
+  opacity: 0.8;
+  border-radius: 50%;
+  pointer-events: none;
+  animation: confetti 4s ease-in-out infinite;
+}
+
+</style>
+
+
+ASIDEBAR
+
+<template>
+    <div>
+      <nav class="bg-black border-gray-200 dark:bg-gray-900 fixed w-full top-0">
+         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
+            
+            <nuxt-link to="/" class="flex items-center">
+                 <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
+                 <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">bitRaffle</span>
+             </nuxt-link>
+             <div class="flex items-left">
+                 
+                  <form>   
+                     <label for="default-search" class=" text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+                     <div class="relative mr-8">
+                        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                           <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                        </div>
+                        <input type="search" id="default-search" class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search ..." required>
+                        
+                     </div>
+                  </form>
+                  <div class="mr-4">
+                    <button>
+                    <i class="fa-regular fa-bell relative text-4xl text-gray-400">
+                      <span class="absolute top-0 right-0 bg-red-500 text-white px-2 -py-1 rounded-full text-xs">3</span>
+                    </i>  
+                    </button>                
+                </div>
+                 
+                  <img class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="https://i.imgur.com/bIPoNpf.jpg" alt="Bordered avatar">
+                  <button data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar" aria-controls="default-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ml-12 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+                    <span class="sr-only">Open sidebar</span>
+                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
+                    </svg>
+                </button>
+             </div>
+         </div>
+     </nav> 
+   
+    
+    <aside id="default-sidebar" class="fixed lg:top-20 sm:top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
+        <div class="h-full px-3 py-4 overflow-y-auto bg-black dark:bg-gray-800 text-white">
+        <ul class="space-y-2 font-medium text-white ">
+            <li>
+                <p  class="flex items-center p-2 text-gray-400 rounded-lg  hover:bg-green-600 dark:hover:bg-gray-700">
+                <i class="fa-solid fa-house"></i>
+                    <span class="ml-3">Dashboard</span>
+                </p>
+            </li>
+            <li>
+                <nuxt-link to="/wallet" class="flex items-center p-2 text-gray-400 rounded-lg dark:text-white hover:bg-green-600 dark:hover:bg-gray-700">
+                
+                    <i class="fas fa-wallet" ></i>
+                                    
+                    <span class="flex-1 ml-3 whitespace-nowrap">My Wallet</span>
+                    
+                </nuxt-link>
+            </li>
+            <li>
+                <nuxt-link to="/transactions" class="flex items-center p-2 text-gray-400 rounded-lg dark:text-white hover:bg-green-600 dark:hover:bg-gray-700">
+                
+                    <i class="fa-solid fa-money-bills"></i>
+                                    
+                    <span class="flex-1 ml-3 whitespace-nowrap">Transactions</span>
+                    
+                </nuxt-link>
+            </li>
+            <li>
+                <nuxt-link to="/exchange" class="flex items-center p-2 text-gray-400 rounded-lg dark:text-white hover:bg-green-600 dark:hover:bg-gray-700">
+                
+                    <i class="fa-sharp fa-solid fa-right-left"></i>
+                                    
+                    <span class="flex-1 ml-3 whitespace-nowrap">Exchange</span>
+                    
+                </nuxt-link>
+            </li>
+            <li>
+                <nuxt-link to="/crypto" class="flex items-center p-2 text-gray-400 rounded-lg dark:text-white hover:bg-green-600 dark:hover:bg-gray-700">
+                
+                    <i class="fa-brands fa-bitcoin"></i>
+                                    
+                    <span class="flex-1 ml-3 whitespace-nowrap">Crypto</span>
+                    
+                </nuxt-link>
+            </li>
+            <br>
+            <hr>
+            <br>
+            
+            <li>
+                <nuxt-link to="/inbox" class="flex items-center p-2 text-gray-400 rounded-lg dark:text-white hover:bg-green-600 dark:hover:bg-gray-700">
+                <i class="fa-solid fa-envelope"></i>
+                    <span class="flex-1 ml-3 whitespace-nowrap">inbox</span>
+                </nuxt-link>
+            </li>
+            <li>
+                <nuxt-link to="/blog" class="flex items-center p-2 text-gray-400 rounded-lg dark:text-white hover:bg-green-600 dark:hover:bg-gray-700">
+                <i class="fa-solid fa-comment"></i>
+                    <span class="flex-1 ml-3 whitespace-nowrap">Blog</span>
+                </nuxt-link>
+            </li>
+            <li>
+                <nuxt-link to="/settings" class="flex items-center p-2 text-gray-400 rounded-lg dark:text-white hover:bg-green-600 dark:hover:bg-gray-700">
+                <i class="fa-solid fa-gear"></i>
+                    <span class="flex-1 ml-3 whitespace-nowrap">Settings</span>
+                </nuxt-link>
+            </li>
+        </ul>
+        </div>
+    </aside>
+  
+  <!-- <div class="p-4 sm:ml-64 ">
+    <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700 mt-8">
+       <div class="grid grid-cols-3 gap-4 mb-4">
+          <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
+            <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+               <div class="bg-white shadow-lg rounded-lg p-4">
+                 <span class="bg-blue-500 text-white rounded-full p-3">
+                   <i class="fas fa-user"></i>
+                 </span>
+                 <div class="text-right mt-4">
+                   <h3 class="text-3xl font-bold">1072</h3>
+                   <span class="text-gray-500 font-semibold">Patients <i class="fas fa-check"></i></span>
+                 </div>
+               </div>
+             </div>
+             
+          </div>
+          <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
+             <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
+          </div>
+          <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
+             <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
+          </div>
+       </div>
+       <div class="flex items-center justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
+          <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
+       </div>
+       <div class="grid grid-cols-2 gap-4 mb-4">
+          <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
+             <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
+          </div>
+          <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
+             <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
+          </div>
+          <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
+             <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
+          </div>
+          <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
+             <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
+          </div>
+       </div>
+       <div class="flex items-center justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
+          <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
+       </div>
+       <div class="grid grid-cols-2 gap-4">
+          <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
+             <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
+          </div>
+          <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
+             <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
+          </div>
+          <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
+             <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
+          </div>
+          <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
+             <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
+          </div>
+       </div>
+    </div>
+  </div> -->
+  
+    </div>
+  </template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>
